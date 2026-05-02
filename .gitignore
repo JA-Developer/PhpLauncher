@@ -1,0 +1,93 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+**/bin/
+**/obj/
+
+## Visual Studio / VS Code
+.vs/
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+## Build / publish
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]uild/
+[Pp]ublish/
+artifacts/
+*.appx
+*.appxbundle
+*.msix
+*.msixbundle
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+project.lock.json
+project.fragment.lock.json
+
+## Test & coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+## .NET tooling
+*.DotSettings.user
+*.dotCover
+.ionide/
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## macOS
+.DS_Store
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## MAUI / mobile build outputs (not product targets, but ignore local builds)
+*.apk
+*.aab
+*.ipa
+*.dSYM.zip
+*.app.dSYM
+
+## Android (if you build Android TFMs locally)
+local.properties
+*.hprof
+.cxx/
+
+## Sensitive / local secrets (never commit)
+*.pfx
+*.p12
+*.key
+appsettings.*.local.json
+secrets.json

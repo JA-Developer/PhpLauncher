@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PhpLauncher.MainPage">
+
+    <Grid>
+        <!-- Main WebView -->
+        <WebView x:Name="MainWebView"
+             IsVisible="False"
+             Navigated="OnWebViewNavigated" />
+
+        <!-- Error message container (hidden by default) -->
+        <VerticalStackLayout x:Name="ErrorLayout"
+            IsVisible="False"
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Spacing="15">
+
+            <Label Text="Something went wrong"
+                FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+            <Label Text="We couldn't load the page. Check your connection."
+                HorizontalTextAlignment="Center"/>
+
+            <Button Text="Retry"
+                Clicked="OnRetryClicked" 
+                WidthRequest="150" />
+        </VerticalStackLayout>
+    </Grid>
+
+</ContentPage>

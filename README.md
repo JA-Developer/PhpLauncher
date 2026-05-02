@@ -20,7 +20,7 @@ Use it to package a **desktop app** experience on top of your existing Laravel b
 ## Clone and build
 
 ```bash
-git clone https://github.com/<your-username>/PhpLauncher.git
+git clone https://github.com/JA-Developer/PhpLauncher.git
 cd PhpLauncher
 dotnet workload restore
 dotnet build PhpLauncher/PhpLauncher.csproj -c Release

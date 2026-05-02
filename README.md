@@ -114,10 +114,6 @@ If you add `AddEnvironmentVariables()` or an `appsettings.json` in code, you can
 | WebView does not load | `HttpsPort`, firewall, `/up` returns 200, Laravel serves correctly from `public/`. |
 | Error writing Caddy logs | `storage/logs` exists in the Laravel project and is writable. |
 
-## Before publishing to GitHub
-
-Add a typical **`.gitignore`** for .NET/MAUI (`bin/`, `obj/`, `.vs/`, publish artifacts) so you do not commit build output or caches. If you bundle FrankenPHP next to the executable only locally, avoid committing large runtime folders unless that is an explicit part of your release strategy.
-
 ## License
 
 This project is released under the [MIT License](LICENSE). See the `LICENSE` file in the repository root.
